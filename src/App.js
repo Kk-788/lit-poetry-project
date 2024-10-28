@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename={"/lit-poetry-project"}>
       <Routes>
         <Route path={"/genre"} element={<Genre />}/>
         <Route path={"/"} element={<Home />}/>
