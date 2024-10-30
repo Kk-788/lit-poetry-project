@@ -1,11 +1,11 @@
 import './App.css';
 import Genre from "./pages/genre";
 import Home from "./pages/home"
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { HashRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
-    <Router basename={"/lit-poetry-project"}>
+    <Router basename={"/"}>
       <Routes>
         <Route path={"/genre"} element={<Genre />}/>
         <Route path={"/"} element={<Home />}/>
