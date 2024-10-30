@@ -8,7 +8,7 @@ const Header = () => {
       <img className={"trees_i"} alt="Sierra mist" src={"https://www.contemporaryartbychristine.com/cdn/shop/files/OriginalAbstractLandscapeOilPaintinggreentreesautumntreesSierramountainswinterColoradohorizonlakereflectiongreylightbluegreenbrownwhiteUKCaliforniamodernforestlandscapecanvasprintwall_09e53cdf-cd0d-49e1-92f8-4bc53adf9c36_1445x.jpg?v=1724553431"}></img>
       <div className={"navbar_container"}>
         {/*<script src="../navbar_transparency.js"></script>*/}
-        <div id={"navbar"}>
+        <div id={"navbar"} className={"font-tbs"}>
           <Link className={"nav_link"} to={"/"}>Home</Link>
           <Link className={"nav_link"} to={"/genre"}>Genre</Link>
           <Link className={"nav_link"} to={""}>Biography</Link>

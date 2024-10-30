@@ -6,7 +6,6 @@ body {
     display: inline;
 }
 
-
 .trees_i {
     width: 100%;
     height: 300px;
@@ -20,9 +19,9 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(0.1turn, #ddda, #ffff);
+    background: linear-gradient(0.1turn, #ffff, #ddda, #ffff);
     align-self: flex-start;
-    padding-left: 100px;
+    padding-left: 50px;
     position: sticky;
     overflow: visible;
     display: flex;
@@ -37,10 +36,11 @@ body {
     top: 15px;
     vertical-align: center;
 
-    font-family:  "Trebuchet MS", sans-serif;
     font-size: large;
+    font-weight: 800;
+
     border-style: solid;
     border-width: medium;
     border-radius: 5px;
-    color: #555;
+    color: #404040;
 }
