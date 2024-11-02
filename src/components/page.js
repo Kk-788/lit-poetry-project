@@ -7,7 +7,7 @@ const Page = ({ children }) => {
   return (
     <div>
       <Header/>
-      <div className={"content"}>
+      <div className={"content font-tbs"}>
         {children}
       </div>
       <Footer/>
