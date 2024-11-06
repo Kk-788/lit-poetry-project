@@ -5,7 +5,7 @@ import "./page.css"
 
 const Page = ({ children }) => {
   return (
-    <div>
+    <div className={"wrapper"}>
       <Header/>
       <div className={"content font-tbs"}>
         {children}
