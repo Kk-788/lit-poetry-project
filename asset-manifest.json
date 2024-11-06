@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lit-poetry-project/static/css/main.5318ce43.css",
-    "main.js": "/lit-poetry-project/static/js/main.872daf71.js",
+    "main.js": "/lit-poetry-project/static/js/main.be751a28.js",
     "index.html": "/lit-poetry-project/index.html",
     "main.5318ce43.css.map": "/lit-poetry-project/static/css/main.5318ce43.css.map",
-    "main.872daf71.js.map": "/lit-poetry-project/static/js/main.872daf71.js.map"
+    "main.be751a28.js.map": "/lit-poetry-project/static/js/main.be751a28.js.map"
   },
   "entrypoints": [
     "static/css/main.5318ce43.css",
-    "static/js/main.872daf71.js"
+    "static/js/main.be751a28.js"
   ]
 }
