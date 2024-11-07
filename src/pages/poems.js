@@ -5,9 +5,17 @@ import {Link} from "react-router-dom";
 const Poems = () => {
   return (
     <Page>
-      <Link to={"to-a-skylark"}>To A Skylark</Link>
+      <Link to={"to-a-skylark"}>
+        <i>To A Skylark</i>
+      </Link>
       <br/>
-      <Link to={"o-there-are-spirits"}>O! there are spirits of the air</Link>
+      <Link to={"o-there-are-spirits"}>
+        <i>O! there are spirits of the air</i>
+      </Link>
+      <br/>
+      <Link to={"ozymandias"}>
+        <i>Ozymandias</i>
+      </Link>
     </Page>
   );
 };
