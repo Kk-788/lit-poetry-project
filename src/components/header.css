@@ -16,7 +16,6 @@ body {
 .navbar_container {
     position: relative;
     display: inline;
-    bottom: 70px;
 }
 
 #navbar {
