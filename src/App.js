@@ -9,6 +9,7 @@ import ToASkylark from "./pages/poemPages/to-a-skylark";
 import OThereAreSpirits from "./pages/poemPages/o-there-are-spirits";
 import Ozymandias from "./pages/poemPages/ozymandias"
 import Biography from "./pages/biography";
+import Sources from "./pages/sources";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path={"/home"} element={<Home />}/>
         <Route path={"/genre"} element={<Genre />}/>
         <Route path={"/biography"} element={<Biography />}/>
+        <Route path={"/sources"} element={<Sources />}/>
         <Route path={"/poemPages"} element={<Poems />} />
         <Route path={"/poemPages/to-a-skylark"} element={<ToASkylark />}/>
         <Route path={"/poemPages/o-there-are-spirits"} element={<OThereAreSpirits />}/>

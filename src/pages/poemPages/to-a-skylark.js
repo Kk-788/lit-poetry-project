@@ -4,7 +4,7 @@ import Page from "../../components/page";
 const ToASkylark = () => {
   return (
     <Page>
-      <p className={"font-mw"}>
+      <p className={""}>
         In the ode To A Skylark, Percy B. Shelley implements various literary elements including diction, syntax,
         simile, and metaphor to praise a singing bird and explain the significance of learning
         from it. Joyous diction is seen in words like “bright” (34), “melody” (35), “singing” (10), “hymns” (38),

@@ -5,10 +5,12 @@ import "./header.css"
 const Header = () => {
   return (
     <>
-      <img className={"trees_i"} alt={"\"Sierra Mist\" by Christine Bell"} title={"\"Sierra Mist\" by Christine Bell"} src={"https://www.contemporaryartbychristine.com/cdn/shop/files/OriginalAbstractLandscapeOilPaintinggreentreesautumntreesSierramountainswinterColoradohorizonlakereflectiongreylightbluegreenbrownwhiteUKCaliforniamodernforestlandscapecanvasprintwall_09e53cdf-cd0d-49e1-92f8-4bc53adf9c36_1445x.jpg?v=1724553431"}></img>
-      <div className={"navbar_container"}>
+      <div className={"trees-container"}>
+        <img className={"trees"} alt={"\"Sierra Mist\" by Christine Bell"} title={"\"Sierra Mist\" by Christine Bell"} src={"https://www.contemporaryartbychristine.com/cdn/shop/files/OriginalAbstractLandscapeOilPaintinggreentreesautumntreesSierramountainswinterColoradohorizonlakereflectiongreylightbluegreenbrownwhiteUKCaliforniamodernforestlandscapecanvasprintwall_09e53cdf-cd0d-49e1-92f8-4bc53adf9c36_1445x.jpg?v=1724553431"}></img>
+      </div>
+      <div className={"navbar-container"}>
         {/*<script src="../navbar_transparency.js"></script>*/}
-        <div id={"navbar"} className={"font-tbs"}>
+        <div id={"navbar"} className={""}>
           <Link to={"/"}>Home</Link>
           <Link to={"/genre"}>Genre</Link>
           <Link to={"/biography"}>Biography</Link>

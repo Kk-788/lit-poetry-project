@@ -1,0 +1,26 @@
+.poem-split {
+    display: flex;
+    align-content: center;
+    height: auto;
+    justify-content: space-around;
+}
+
+.poem-split * {
+    min-width: 0.3vw;
+    flex: 1 1 50%;
+}
+
+.poem {
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-right: 0px;
+    width: fit-content;
+    background-color: aliceblue;
+}
+
+.poem-line {
+    padding-left: 20px;
+    text-indent: -1em;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
