@@ -1,0 +1,28 @@
+.footer {
+    padding: 10px 70px;
+    background-color: #dedede;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #404040;
+}
+
+.footer > a > svg path {
+    fill: #808080;
+}
+
+.footer > a > svg:hover path {
+    filter: hue-rotate(720deg);
+    animation: cubic-bezier(0,1.3,1,-0.3) logo_colors 0.5s forwards;
+
+}
+
+@keyframes logo_colors {
+    0% {
+        fill: #808080
+    }
+    100% {
+        fill: #00baff
+    }
+}
+

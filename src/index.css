@@ -12,8 +12,12 @@ body {
   overflow: initial;
 }
 
-.content {
-  margin: -30px 100px 10px 100px;
+.font-mw {
+  font-family: "Garamond", serif;
+}
+
+.font-tbs {
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 code {

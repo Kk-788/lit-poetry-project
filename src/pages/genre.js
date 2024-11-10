@@ -1,9 +1,10 @@
 import React from 'react';
+import Page from "../components/page";
 const Genre = () => {
   return (
-    <div>
-
-    </div>
+    <Page>
+      work in progress
+    </Page>
   );
 };
 
