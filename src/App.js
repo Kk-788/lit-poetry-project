@@ -1,7 +1,7 @@
 import './App.css';
 import Genre from "./pages/genre";
 import Home from "./pages/home"
-import { HashRouter as Router, Routes, Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route, Link} from "react-router-dom";
 
 import Page from "./components/page";
 import Poems from "./pages/poems";
@@ -10,6 +10,7 @@ import OThereAreSpirits from "./pages/poemPages/o-there-are-spirits";
 import Ozymandias from "./pages/poemPages/ozymandias"
 import Biography from "./pages/biography";
 import Sources from "./pages/sources";
+import LitReview from "./pages/litReview";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <Route path={"/poemPages/to-a-skylark"} element={<ToASkylark />}/>
         <Route path={"/poemPages/o-there-are-spirits"} element={<OThereAreSpirits />}/>
         <Route path={"/poemPages/ozymandias"} element={<Ozymandias />}/>
-        <Route path={"*"} element={<Page>Page not yet implemented or address invalid</Page>}/>
+        <Route path={"/lit-review"} element={<LitReview />}/>
+        <Route path={"*"} element={<Page>Page not yet implemented or address invalid</Page>} />
       </Routes>
     </Router>
   );

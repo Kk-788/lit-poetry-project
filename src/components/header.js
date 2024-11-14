@@ -15,7 +15,8 @@ const Header = () => {
           <Link to={"/genre"}>Genre</Link>
           <Link to={"/biography"}>Biography</Link>
           <Link to={"/poemPages"}>Poems</Link>
-          <Link to={"/quiz"}>Quiz</Link>
+          <Link to={"/lit-review"}>Lit Review</Link>
+          {/*<Link to={"/quiz"}>Quiz</Link>*/}
         </div>
       </div>
     </>

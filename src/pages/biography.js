@@ -1,6 +1,6 @@
 import React from 'react';
 import Page from "../components/page";
-import txtBiography from "../texts/txtBiography.jsx"
+import txtBiography from "../texts/txtBiography.js"
 import srcs from "../texts/srcsBiography"
 import "./biography.css"
 

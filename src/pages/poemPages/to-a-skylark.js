@@ -4,6 +4,9 @@ import Page from "../../components/page";
 const ToASkylark = () => {
   return (
     <Page>
+      <p>Subject: The flight and singing of a skylark </p>
+      <p>Attitude: The flight and singing of a skylark</p>
+      <p>Audience: People who are open to improving their lives by learning</p>
       <p className={""}>
         In the ode To A Skylark, Percy B. Shelley implements various literary elements including diction, syntax,
         simile, and metaphor to praise a singing bird and explain the significance of learning

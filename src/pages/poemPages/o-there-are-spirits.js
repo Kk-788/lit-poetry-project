@@ -4,6 +4,10 @@ import Page from "../../components/page";
 const OThereAreSpirits = () => {
   return (
     <Page>
+      <p>Subject: The search for love</p>
+      <p>Attitude: Lamenting, hopeless, tired, rebellious</p>
+      <p>Audience: People who tend to excessively rely on others in life</p>
+
       <p className={""}>
         In his poem O! there are spirits of the air, Percy Bysshe Shelley implements rhetorical questions and a
         contrast in diction to teach against relying on others’ loyalty as people often change. Shelley writes the poem
