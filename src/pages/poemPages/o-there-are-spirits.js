@@ -4,7 +4,7 @@ import Page from "../../components/page";
 const OThereAreSpirits = () => {
   return (
     <Page>
-      <p className={"font-mw"}>
+      <p className={""}>
         In his poem O! there are spirits of the air, Percy Bysshe Shelley implements rhetorical questions and a
         contrast in diction to teach against relying on others’ loyalty as people often change. Shelley writes the poem
         in the second person perspective, addressing it to an unidentified person who had searched for love but

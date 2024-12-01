@@ -7,7 +7,7 @@ const Page = ({ children }) => {
   return (
     <div className={"wrapper"}>
       <Header/>
-      <div className={"content font-tbs"}>
+      <div className={"content"}>
         {children}
       </div>
       <Footer/>
