@@ -8,7 +8,7 @@ import Poems from "./pages/poems";
 import ToASkylark from "./pages/poemPages/to-a-skylark";
 import OThereAreSpirits from "./pages/poemPages/o-there-are-spirits";
 import Ozymandias from "./pages/poemPages/ozymandias"
-import Biography from "./pages/biography";
+import Timeline from "./pages/timeline";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path={"/"} element={<Home />}/>
         <Route path={"/home"} element={<Home />}/>
         <Route path={"/genre"} element={<Genre />}/>
-        <Route path={"/biography"} element={<Biography />}/>
+        <Route path={"/timeline"} element={<Timeline />}/>
         <Route path={"/poemPages"} element={<Poems />} />
         <Route path={"/poemPages/to-a-skylark"} element={<ToASkylark />}/>
         <Route path={"/poemPages/o-there-are-spirits"} element={<OThereAreSpirits />}/>

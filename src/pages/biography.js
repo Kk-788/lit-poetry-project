@@ -1,7 +1,7 @@
 import React from 'react';
 import Page from "../components/page";
 
-const Biography = () => {
+const Timeline = () => {
   return (
     <Page>
       <h4>to be polished and redone</h4>
@@ -32,4 +32,4 @@ const Biography = () => {
   );
 };
 
-export default Biography;
+export default Timeline;
