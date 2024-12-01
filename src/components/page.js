@@ -3,15 +3,15 @@ import Footer from "./footer";
 import Header from "./header";
 import "./page.css"
 
-const Page = ({ children }) => {
+const Page = (props) => {
   return (
-    <div className={"wrapper"}>
-      <Header/>
+    <>
+      <Header title={props.title}/>
       <div className={"content"}>
-        {children}
+        {props.children}
       </div>
       <Footer/>
-    </div>
+    </>
   );
 };
 

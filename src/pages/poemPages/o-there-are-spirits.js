@@ -3,7 +3,7 @@ import Page from "../../components/page";
 
 const OThereAreSpirits = () => {
   return (
-    <Page>
+    <Page title={"O! there are spirits of the air"}>
       <p>Subject: The search for love</p>
       <p>Attitude: Lamenting, hopeless, tired, rebellious</p>
       <p>Audience: People who tend to excessively rely on others in life</p>

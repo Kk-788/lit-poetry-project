@@ -3,7 +3,7 @@ import Page from "../../components/page";
 
 const ToASkylark = () => {
   return (
-    <Page>
+    <Page title={"To a Skylark"}>
       <p>Subject: The flight and singing of a skylark </p>
       <p>Attitude: The flight and singing of a skylark</p>
       <p>Audience: People who are open to improving their lives by learning</p>

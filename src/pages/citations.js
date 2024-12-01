@@ -1,12 +1,10 @@
-import text from "../texts/txtSources"
 
 import React from 'react';
 import Page from "../components/page";
 
-const Sources = () => {
+const Citations = () => {
   return (
-    <Page>
-      <h2>Sources Used</h2>
+    <Page title={"Citations"}>
       <p>{
         "Ack, Tess Lee. “Red Flag.” Redflag.org.au, 21 Dec. 2022, redflag.org.au/article/shelleys-revolutionary-poetry.\n" +
         "Editorial Staff. “An Introduction to British Romanticism.” Poetry Foundation, 4 June 2020, www.poetryfoundation.org/collections/152982/an-introduction-to-british-romanticism.\n" +
@@ -24,4 +22,4 @@ const Sources = () => {
   );
 };
 
-export default Sources;
+export default Citations;

@@ -1,6 +1,6 @@
 .content {
     font-size: 18px;
-    font-weight: lighter;
-    padding: 30px 100px 50px 100px;
+    font-weight: initial;
+    padding: 2vh 8vw 2vh 6vw;
     background-color: white;
 }
