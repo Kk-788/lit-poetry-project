@@ -8,8 +8,8 @@ import Poems from "./pages/poems";
 import ToASkylark from "./pages/poemPages/to-a-skylark";
 import OThereAreSpirits from "./pages/poemPages/o-there-are-spirits";
 import Ozymandias from "./pages/poemPages/ozymandias"
-import Biography from "./pages/biography";
-import Sources from "./pages/sources";
+import Timeline from "./pages/timeline";
+import Citations from "./pages/citations";
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
         <Route path={"/"} element={<Home />}/>
         <Route path={"/home"} element={<Home />}/>
         <Route path={"/genre"} element={<Genre />}/>
-        <Route path={"/biography"} element={<Biography />}/>
-        <Route path={"/sources"} element={<Sources />}/>
+        <Route path={"/timeline"} element={<Timeline />}/>
+        <Route path={"/citations"} element={<Sources />}/>
         <Route path={"/poemPages"} element={<Poems />} />
         <Route path={"/poemPages/to-a-skylark"} element={<ToASkylark />}/>
         <Route path={"/poemPages/o-there-are-spirits"} element={<OThereAreSpirits />}/>

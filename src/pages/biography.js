@@ -4,7 +4,7 @@ import txtBiography from "../texts/txtBiography.jsx"
 import srcs from "../texts/srcsBiography"
 import "./biography.css"
 
-const Biography = () => {
+const Timeline = () => {
   return (
     <Page>
       {txtBiography}
@@ -22,4 +22,4 @@ const Biography = () => {
   );
 };
 
-export default Biography;
+export default Timeline;
