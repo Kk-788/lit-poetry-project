@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/lit-poetry-project/static/css/main.e38bffe5.css",
-    "main.js": "/lit-poetry-project/static/js/main.1dcd6f4b.js",
+    "main.css": "/lit-poetry-project/static/css/main.f1125e38.css",
+    "main.js": "/lit-poetry-project/static/js/main.87ac057a.js",
+    "static/media/finalEssay.pdf": "/lit-poetry-project/static/media/finalEssay.6aa63c638f1ba9b6c644.pdf",
+    "static/media/essayLitReview.pdf": "/lit-poetry-project/static/media/essayLitReview.7a098a9b540979e3e203.pdf",
     "index.html": "/lit-poetry-project/index.html",
-    "main.e38bffe5.css.map": "/lit-poetry-project/static/css/main.e38bffe5.css.map",
-    "main.1dcd6f4b.js.map": "/lit-poetry-project/static/js/main.1dcd6f4b.js.map"
+    "main.f1125e38.css.map": "/lit-poetry-project/static/css/main.f1125e38.css.map",
+    "main.87ac057a.js.map": "/lit-poetry-project/static/js/main.87ac057a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e38bffe5.css",
-    "static/js/main.1dcd6f4b.js"
+    "static/css/main.f1125e38.css",
+    "static/js/main.87ac057a.js"
   ]
 }
